@@ -1,0 +1,315 @@
+{
+    // Debug:
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.javascript.codelens.npmScripts": "never",
+    "editor.glyphMargin": false, // hide breakpoints
+    "debug.console.closeOnEnd": true,
+    // Editor:
+    "editor.cursorBlinking": "solid",
+    "editor.accessibilitySupport": "off",
+    "editor.colorDecorators": false,
+    "editor.dragAndDrop": false,
+    "editor.folding": false, // change to `true` and use `cmd+alt` + `[` or `]`
+    "editor.showFoldingControls": "mouseover",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.openEditors.visible": 1,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "editor.renderLineHighlight": "none",
+    "editor.hideCursorInOverviewRuler": false,
+    "explorer.compactFolders": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.scrollBeyondLastLine": false,
+    "editor.snippetSuggestions": "none",
+    "editor.cursorSurroundingLines": 3,
+    "editor.useTabStops": true,
+    "editor.formatOnPaste": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "editor.hover.enabled": "on",
+    "editor.stickyScroll.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.renderSideBySide": false,
+    "window.commandCenter": false,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.hover.delay": 300, // ms
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "hidden",
+    // Use simple navigation:
+    "editor.gotoLocation.multipleReferences": "peek",
+    "editor.gotoLocation.multipleDefinitions": "peek",
+    "editor.gotoLocation.multipleDeclarations": "peek",
+    "editor.gotoLocation.multipleImplementations": "peek",
+    "editor.gotoLocation.multipleTypeDefinitions": "peek",
+    // Do not modify my code, please:
+    // "editor.autoClosingBrackets": "never",
+    // "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // "editor.acceptSuggestionOnEnter": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.quickSuggestions": {
+        "other": true, // change to "true" to enable regular code suggetions
+        "comments": false,
+        "strings": false,
+    },
+    "editor.formatOnType": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.localityBonus": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false,
+    "editor.guides.indentation": false,
+    "editor.showUnused": true,
+    "editor.pasteAs.preferences": [
+        "text.plain",
+    ],
+    "files.watcherExclude": {
+        "**/build": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/venv": true
+    },
+    "chat.agent.enabled": false,
+    // Search
+    "search.quickAccess.preserveInput": true,
+    "search.quickOpen.includeSymbols": false, // NOTE: try both!
+    "search.quickOpen.history.filterSortOrder": "recency",
+    "workbench.quickOpen.preserveInput": false, // NOTE: try both!
+    // Per-language UI settings:
+    "[css]": {
+        "editor.colorDecorators": true,
+    },
+    "[jsonc]": { // for vscode theme editing
+        "editor.colorDecorators": true,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    // Files:
+    "files.associations": {
+        ".babelrc": "jsonc",
+        ".eslintrc": "jsonc",
+        "*.pyi": "python",
+        "*.bats": "shellscript",
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.idea": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.venv": true,
+        "**/.ruff_cache": true,
+        "**/.coverage": true,
+        "**/*.py[co]": true,
+        "**/htmlcoverage": true,
+        "**/docs/build": true,
+        "**/.vscode": true,
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+    },
+    // Stats and telemetry:
+    "telemetry.telemetryLevel": "all",
+    // Terminal:
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.env.osx": {
+        "SOBOLE_THEME_MODE": "dark",
+    },
+    "accessibility.signals.terminalBell": {
+        "sound": "off",
+        "announcement": "off",
+    },
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.fontLigatures.enabled": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    // Main editor:
+    "window.clickThroughInactive": false,
+    "window.newWindowDimensions": "maximized",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.editor.highlightModifiedTabs": false,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "merge-conflict.autoNavigateNextConflict.enabled": false,
+    // Tools, extensions, and languages:
+    "problems.decorations.enabled": true,
+    "git.autofetch": false,
+    "git.showInlineOpenFileAction": false,
+    "git.autorefresh": true,
+    "git.decorations.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.blame.editorDecoration.enabled": false,
+    "python.analysis.completeFunctionParens": true,
+    "python.createEnvironment.trigger": "off",
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.shellIntegration.enabled": false,
+    "python.languageServer": "Pylance",
+    "python.analysis.reportExtraTelemetry": false,
+    "python.analysis.addHoverSummaries": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.autoSearchPaths": false,
+    "python.experiments.enabled": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.analysis.reportUnusedImport": "error",
+    "python.analysis.reportUnusedVariable": "warning",
+    "python.analysis.reportUnusedClass": "warning",
+    "python.analysis.reportUnusedFunction": "warning",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "C_Cpp.dimInactiveRegions": false,
+    "workbench.iconTheme": "ayu",
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.colorCustomizations": {
+        // I customize these two, because other people might
+        // want to have error and warning decorations even in `pustota` theme.
+        // "editorError.foreground": "#00000000",
+        // "editorWarning.foreground": "#00000000",
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    // https://github.com/subframe7536/vscode-custom-ui-style extension:
+    "custom-ui-style.electron": {
+        "frame": false, // removes the title bar
+        "transparent": true, // removes white line from the top
+        "titleBarStyle": "hidden",
+        "titleBarOverlay": {
+            "height": 35, // icons and text has the same centring in the title bar
+        }
+    },
+    "window.titleBarStyle": "native",
+    // Hide unwanted elements from the UI:
+    "custom-ui-style.stylesheet": {
+        // Hide extra items:
+        ".monaco-toolbar, .quick-input-list .scrollbar, .quick-input-list .action-label": {
+            "visibility": "hidden !important",
+            "display": "none !important",
+        },
+        // Center the title with the filename:
+        ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
+            "margin-left": "50px !important",
+        },
+        // Offset terminal title:
+        ".composite.title.has-composite-bar": {
+            "margin-left": "50px !important",
+        },
+    },
+    "workbench.tree.indent": 20,
+    "codemap.useNoDependencyCSharpMapper": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    },
+    "editor.fontSize": 15,
+    "files.autoSave": "afterDelay",
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontSize": 15,
+    "chat.editor.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.1,
+    "outline.collapseItems": "alwaysCollapse",
+    "explorer.autoReveal": false,
+    "explorer.expandSingleFolderWorkspaces": false,
+    "explorer.autoRevealExclude": {
+        "**/*": true
+    },
+    "explorer.decorations.colors": false,
+    "outline.problems.enabled": false,
+    "outline.problems.badges": false,
+    "outline.problems.colors": false,
+    "outline.icons": true,
+    "outline.showVariables": true,
+    "outline.showFunctions": true,
+    "outline.showClasses": true,
+    "outline.showInterfaces": true,
+    "outline.showEnums": true,
+    "git.mergeEditor": true,
+    "editor.mouseWheelZoom": false,
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": false,
+    "editor.codeLens": false,
+    "workbench.editor.decorations.badges": false,
+    "debug.console.maximumLines": 100000,
+    "editor.lineNumbers": "relative",
+    "debug.console.wordWrap": false,
+    "workbench.colorTheme": "pustota",
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "editor.wrapOnEscapedLineFeeds": true,
+    "vim.textwidth": 89,
+    "vsicons.dontShowNewVersionMessage": true,
+    "mdb.mcp.server": "autoStartDisabled",
+    "kilo-code.debug": false,
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": [],
+    "python.analysis.exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".git",
+        "**/dist",
+        "**/build",
+        "**/.claude",
+        "**/.idea"
+    ],
+    "terminal.integrated.commandsToSkipShell": [
+        "kilo-code.new.agentManagerOpen",
+        "kilo-code.new.agentManager.showTerminal"
+    ],
+    "claudeCode.preferredLocation": "panel",
+    "editor.formatOnSave": true,
+    "containers.containers.label": "ContainerName",
+}
